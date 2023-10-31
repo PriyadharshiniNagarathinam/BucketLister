@@ -1,0 +1,12 @@
+{
+    "name": "My Bucket List",
+    "version": "1.0.0",
+    "description": "Adding my instant desires to my Bucket List",
+    "manifest_version": 3,
+    "author": "Priya Dharshini",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "My Bucket List"
+    }
+
+}

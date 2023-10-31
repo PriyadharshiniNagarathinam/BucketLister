@@ -1,0 +1,25 @@
+.collapse, .collapseForEveryListItem {
+  display: none;
+}
+.show {
+  display: block;
+}
+.button {
+  text-transform: uppercase;
+  margin:3px;
+  width: 100%;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #fffff0;
+}
+.myContainer {
+  width: 400px;
+  margin:20px;
+  padding :20px;
+  max-width: 100%;
+  background-color: chartreuse;
+}
+.wishesList{
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bucketlister",
+  "version": "1.0.0",
+  "description": "listing out your wishes",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Priya Dharshini N",
+  "license": "ISC"
+}

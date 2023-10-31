@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>My Bucket List</title>
+  </head>
+
+  <body>
+    <div class="myContainer">
+      <div class="buttons">
+        <button data-id="newWishForm" class="button btn btn-outline-primary">New Wish</button>
+        <button data-id="showMyBucketList" class="button btn btn-outline-primary">
+          Show All
+        </button>
+      </div>
+
+      <div class="collapse m-2" id="newWishForm">
+        <div class="card card-body">
+          <form>
+            <input type="text" id="EnterNewWish" class="form-control mb-1" placeholder="your dream"/>
+            <div class="form-group ">
+              <textarea class="form-control mb-1" id="AddDescription" rows="3" placeholder="tell me more"></textarea>
+            </div>
+            <label for="deadline" class="mb-1">Deadline..</label>
+            <input type="date" id="deadline" class="form-control mb-1">
+            <button class="btn btn-outline-danger" id="AddMyWish">Add</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="collapse m-2" id="showMyBucketList">
+        <div class="card card-body">
+          <ul id="wishesList">
+          </ul>
+          <div id="showCaseArea"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script  src="script.js"></script>
+  </body>
+</html>
